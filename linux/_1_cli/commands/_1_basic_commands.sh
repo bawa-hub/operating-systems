@@ -26,3 +26,6 @@ whatis
 alias
 exit
 logout
+
+# filesystem 
+df -T
