@@ -8,8 +8,10 @@ date
 pwd 
 # cd(change directory)
 cd /var
+cd ~ # home directory 
 # ls(list directories)
-ls
+ls 
+ls -l # more info
 touch
 file
 cat
@@ -26,6 +28,9 @@ whatis
 alias
 exit
 logout
+clear
 
 # filesystem 
 df -T
+
+<command> --help  # to list down available options
