@@ -1,3 +1,7 @@
+# Topics --
+
+filesystem heirarchy -- https://www.pathname.com/fhs/
+
 # Tutorials --
 
 https://linuxjourney.com/
