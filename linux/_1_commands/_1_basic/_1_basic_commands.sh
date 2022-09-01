@@ -4,18 +4,30 @@ whoami
 # date
 date
 
-# pwd (print working directory)
+# print working directory
 pwd 
 
-# cd(change directory)
+# make directory
+mkdir
+
+# change directory
 cd /var
 # home directory
 cd ~  
 
-# ls(list directories)
+# list directories
 ls 
 ls -l # more info
 ls -la
+
+# copy 
+cp <source_file_path> <destination_file_path>
+
+# move 
+mv <source_file_path> <destination_file_path>
+
+# remove file
+rm <file_path>
 
 # create file
 touch
@@ -26,24 +38,17 @@ cat <filename>
 # filesystem 
 df -T
 
-# Create low priviledge user --
-sudo  adduser <vikram>
-
-# add this user to sudoers group --
-sudo usermod -aG sudo vikram
-
 # Generate SSH key --
 ssh-keygen -t rsa
+
+# install debian (.deb) package
+sudo dpkg -i <package_name>
 
 <command> --help  # to list down available options
 
 file
 less
 history
-cp(copy)
-mv(move)
-mkdir(make directory)
-rm(remove)
 find
 help
 man
