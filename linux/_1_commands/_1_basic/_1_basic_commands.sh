@@ -1,20 +1,43 @@
-# print 
-echo hello
 # current username
 whoami
+
 # date
 date
-# pwd(print working directory)
+
+# pwd (print working directory)
 pwd 
+
 # cd(change directory)
 cd /var
-cd ~ # home directory 
+# home directory
+cd ~  
+
 # ls(list directories)
 ls 
 ls -l # more info
+ls -la
+
+# create file
 touch
+
+# show file data
+cat <filename>
+
+# filesystem 
+df -T
+
+# Create low priviledge user --
+sudo  adduser <vikram>
+
+# add this user to sudoers group --
+sudo usermod -aG sudo vikram
+
+# Generate SSH key --
+ssh-keygen -t rsa
+
+<command> --help  # to list down available options
+
 file
-cat
 less
 history
 cp(copy)
@@ -29,9 +52,3 @@ alias
 exit
 logout
 clear
-
-# filesystem 
-df -T
-
-<command> --help  # to list down available options
-
