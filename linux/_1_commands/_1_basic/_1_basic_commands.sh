@@ -1,6 +1,12 @@
 # current username
 whoami
 
+# know about command
+whatis <command>
+
+# know the path of command binaries
+which <command>
+
 # date
 date
 
@@ -11,7 +17,7 @@ pwd
 mkdir
 
 # change directory
-cd /var
+cd /var  
 # home directory
 cd ~  
 
@@ -52,7 +58,6 @@ history
 find
 help
 man
-whatis
 alias
 exit
 logout

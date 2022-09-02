@@ -1,3 +1,5 @@
+# everything in linux is files. eg: devices, settings, etc
+
 # /
 
 root directory of the entire filesystem heirarchy, e
