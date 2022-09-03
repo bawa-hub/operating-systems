@@ -50,15 +50,58 @@ ssh-keygen -t rsa
 # install debian (.deb) package
 sudo dpkg -i <package_name>
 
-<command> --help  # to list down available options
+# to list down available options
+<command> --help  
+<command> -h
 
-file
-less
-history
-find
-help
-man
-alias
+# clear terminal screen
+clear
+
+# close terminal
 exit
 logout
-clear
+
+# previously executed commands
+history
+
+# all about user
+id
+
+# hostname
+hostname
+
+# about linux
+uname <options>
+
+# network stuff
+ifconfig
+ip
+
+# status of network
+netstat
+
+# session stuff
+ss
+
+# logged in users
+who
+
+# environment variables
+env
+
+# detail manual of command
+man <command>
+
+# get help about anything
+apropos <anything>
+
+lsblk
+lsusb
+lsof
+file
+less
+find
+help
+alias
+
+
