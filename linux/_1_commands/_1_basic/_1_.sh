@@ -35,8 +35,11 @@ mv <source_file_path> <destination_file_path>
 # remove file
 rm <file_path>
 
+# remove directory recursively
+rm -f <dir>
+
 # create file
-touch
+touch <filename>
 
 # show file data
 cat <filename>
@@ -95,13 +98,31 @@ man <command>
 # get help about anything
 apropos <anything>
 
+# show all shells present in system
+cat /etc/shells 
+
+# executable permission to file
+chmod +x <filename>
+
+# logged in users details
+who 
+w # for detailed details
+
+# process details
+top
+htop # show detailed details
+
+# network status
+netstat
+netstat -tupln
+sudo netstat -tupln # for more info 
+
 lsblk
 lsusb
 lsof
 file
 less
 find
-help
 alias
 
 
