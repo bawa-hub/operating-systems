@@ -11,3 +11,11 @@
 
 # ssh
 # sftp
+
+# network status
+netstat
+netstat -tupln
+sudo netstat -tupln # for more info 
+
+# Generate SSH key --
+ssh-keygen -t rsa

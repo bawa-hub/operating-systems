@@ -54,3 +54,6 @@ pgrep firefox # ps+grep = pgrep , get firefox pid
 kill <pid>
 
 
+# process details
+top
+htop # show detailed details

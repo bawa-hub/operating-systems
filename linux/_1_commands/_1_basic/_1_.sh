@@ -1,30 +1,34 @@
-# current username
-whoami
-
-# know about command
-whatis <command>
-
-# know the path of command binaries
-which <command>
-
-# date
-date
-
 # print working directory
 pwd 
 
-# make directory
-mkdir
-
 # change directory
 cd /var  
-# home directory
-cd ~  
+cd ~  # home directory
 
 # list directories
 ls 
 ls -l # more info
 ls -la
+
+# create file
+touch <filename>
+
+# description of file content
+file <filename>
+
+# show file data (for less content)
+cat <filename>
+
+# show large file data
+less /path/to/file
+man less # know more about less
+
+# previously executed commands
+history
+ctrl+R write_part_of_command_ ctrl+R # for searching commands 
+
+# clear terminal screen
+clear
 
 # copy 
 cp <source_file_path> <destination_file_path>
@@ -32,40 +36,52 @@ cp <source_file_path> <destination_file_path>
 # move 
 mv <source_file_path> <destination_file_path>
 
+# make directory
+mkdir
+
 # remove file
 rm <file_path>
 
-# remove directory recursively
-rm -f <dir>
+# remove directory 
+rm -f <dir> # forces remove
+rm -r <dir> # recursively remove
+rmdir <dir>
 
-# create file
-touch <filename>
+# find file in system
+find /path/to/dir -name <filename>
+find /path/to/dir -type d -name <folder>  # d = directory
 
-# show file data
-cat <filename>
+# help for commands
+<command> --help
 
-# filesystem 
-df -T
+# detail manual of command
+man <command>
 
-# Generate SSH key --
-ssh-keygen -t rsa
+# get help about anything
+apropos <anything>
 
-# install debian (.deb) package
-sudo dpkg -i <package_name>
+# what a command does
+whatis <command>
 
-# to list down available options
-<command> --help  
-<command> -h
+# know the path of command binaries
+which <command>
 
-# clear terminal screen
-clear
+# make alias of command
+# alias any_name='any_command'
+alias foobar='la -la' # alias will remove after reboot
+# add in ~/.bashrc to add alias permanently
+unalias <alias_name> # remove alias
 
 # close terminal
 exit
 logout
 
-# previously executed commands
-history
+# current username
+whoami
+
+# logged in users details
+who 
+w # for detailed details
 
 # all about user
 id
@@ -76,53 +92,11 @@ hostname
 # about linux
 uname <options>
 
-# network stuff
-ifconfig
-ip
-
-# status of network
-netstat
-
 # session stuff
 ss
-
-# logged in users
-who
 
 # environment variables
 env
 
-# detail manual of command
-man <command>
-
-# get help about anything
-apropos <anything>
-
 # show all shells present in system
 cat /etc/shells 
-
-# executable permission to file
-chmod +x <filename>
-
-# logged in users details
-who 
-w # for detailed details
-
-# process details
-top
-htop # show detailed details
-
-# network status
-netstat
-netstat -tupln
-sudo netstat -tupln # for more info 
-
-lsblk
-lsusb
-lsof
-file
-less
-find
-alias
-
-

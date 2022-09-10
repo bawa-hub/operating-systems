@@ -2,7 +2,7 @@
 
 # /
 
-root directory of the entire filesystem heirarchy, e
+root directory of the entire filesystem heirarchy,
 everything is nested under this directory.
 
 # ls -l /

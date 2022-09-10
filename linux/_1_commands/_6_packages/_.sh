@@ -7,3 +7,5 @@ sudo apt install <package_name>
 
 # get apt repositories sources 
 sudo apt edit-sources
+
+
