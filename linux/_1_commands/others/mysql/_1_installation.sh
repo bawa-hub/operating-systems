@@ -20,3 +20,7 @@ ls /usr/share/doc/dbconfig-common
 sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf-available/phpmyadmin.conf
 sudo a2enconf phpmyadmin.conf
 sudo systemctl restart apache2
+
+
+# links
+https://miloserdov.org/?p=5910
