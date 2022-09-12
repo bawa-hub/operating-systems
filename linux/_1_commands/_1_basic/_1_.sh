@@ -7,6 +7,7 @@ cd ~  # home directory
 
 # list directories
 ls 
+ls /path/to/any/folder
 ls -l # more info
 ls -la
 
@@ -100,3 +101,9 @@ env
 
 # show all shells present in system
 cat /etc/shells 
+
+# current amount of free space on our disk drives
+df
+
+# amount of free memory
+free
