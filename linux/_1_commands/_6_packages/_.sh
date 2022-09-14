@@ -8,4 +8,6 @@ sudo apt install <package_name>
 # get apt repositories sources 
 sudo apt edit-sources
 
+# remove package completely from system
+https://askubuntu.com/questions/32730/how-to-remove-postgres-from-my-installation
 
