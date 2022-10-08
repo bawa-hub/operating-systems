@@ -4,12 +4,15 @@ pwd
 # change directory
 cd /var  
 cd ~  # home directory
+cd ~bawa #home dir of user bawa
 
 # list directories
 ls 
 ls /path/to/any/folder
 ls -l # more info
-ls -la
+ls -a #show hidden files
+ls -la #show more info and hidden files also
+ls ~ /usr #show user home directory and /usr directory simultaneouly
 
 # create file
 touch <filename>
@@ -107,3 +110,6 @@ df
 
 # amount of free memory
 free
+
+# prompt string
+echo $PS1

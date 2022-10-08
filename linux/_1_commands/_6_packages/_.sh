@@ -1,3 +1,5 @@
+# Most distributions fall into one of two camps of packaging technologies: the Debian .deb camp and the Red Hat .rpm camp.
+
 # low level package manager - dpkg
 sudo dpkg -i <package_name.deb>
 
