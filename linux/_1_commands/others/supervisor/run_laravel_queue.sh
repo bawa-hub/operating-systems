@@ -12,4 +12,9 @@ numprocs=5
 redirect_stderr=true
 stdout_logfile=/<path/to/project>/storage/logs/worker.log
 
+sudo supervisorctl reread
+sudo supervisorctl update
+sudo supervisorctl start laravel-worker.conf
+
+
 
