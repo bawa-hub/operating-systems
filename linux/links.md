@@ -10,6 +10,10 @@ https://www.youtube.com/watch?v=wBp0Rb-ZJak
 https://github.com/alebcay/awesome-shell
 https://github.com/awesome-lists/awesome-bash
 
+# Kernel --
+
+https://www.kernel.org/
+
 # Books --
 
 https://github.com/jidibinlin/Free-DevOps-Books-1/tree/master/book
